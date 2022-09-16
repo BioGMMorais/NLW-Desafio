@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background: #121214 url(./assets/Fundo.jpg);
+  background-position: top center;
+  background-size: 100/5 auto;
+  background-repeat: no-repeat;
+  background-color: #121214;
+}
+
+body * {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 160%;
+}
+
+header {
+  margin-top: 32px;
+  height: 120px;
+}
+
+header div {
+  width: 120px;
+  margin: auto;
+  background-image: linear-gradient(90deg, #C91842 0%, #5CC2E2 100%);
+
+  border-radius: 50%;
+
+  display: flex;
+  padding: 4px;
+
+  transition: transform .3s;
+}
+
+header div:hover {
+  transform: scale(1.1);
+}
+
+header img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+main {
+  max-width: 580px;
+  width: 90%;
+  margin: 32px auto;
+
+  display: grid;
+  gap: 24px;
+}
+
+section {
+  color: white;
+  line-height: 160%;
+
+  background: linear-gradient(90deg, #C91842 0%, #5CC2E2 100%);
+  padding-top: 4px;
+  border-radius: 10px;
+}
+
+section div {
+  background-color: #262629;
+  padding: 32px;
+  padding-top: 24px;
+  border-radius: 8px;
+}
+
+section h2 {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 38.4px;
+}
+
+section p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+
+  color: #c1c1c1;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+
+  margin-top: 24px;
+}
+
+ul li img {
+  border: 1px solid #555;
+}
+
+li {
+  transition: transform .3s;
+}
+
+li:hover {
+  transform: scale(1.1);
+}
+
+.list-films
+img {
+  border-radius: 8px;
+  width: 110px;
+}
+
+.list-series img {
+  border-radius: 8px;
+  width: 110px;
+}
+
+.list-act img {
+  width: 70px;
+  border-radius: 50%;
+}
